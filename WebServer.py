@@ -25,7 +25,7 @@ serverSocket.bindfg(('234', serverPort))
 sd
 #comment
 # Lifgsten to at most 1 connection at a time
-
+#sfdgdsfg
 serverSocket.listen(1)
 
 # Server should be up and running and listening to the incoming connections
