@@ -12,14 +12,14 @@ serverSocket = socket(AF_INET, SOCK_STREAM)
 # serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Assign a port number
-serverPort = 80
+serverPort = 8234230
 
 # Bind the socket to server address and server port
 # serverSocket.bind(("", serverPort))
-# serverSocket.bind(("192.168.1.246", serverPort))
-# serverSocket.bind(("18.223.155.104", serverPort))
-# serverSocket.bind(("172.31.16.128", serverPort))
-serverSocket.bind(('', serverPort))
+#WDSFERFERF
+# serverSocket.bind(("192.168.1.242346", serverPort))
+# serverSocket.bind(("172342342.31.16.128", serverPort))
+serverSocket.bind(('234', serverPort))
 
 # Listen to at most 1 connection at a time
 serverSocket.listen(1)
