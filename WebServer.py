@@ -1,7 +1,7 @@
 #Alia Haidar
 #u922E959
 #CS 464
-
+# Added a comment for the assignment
 # Import socket module
 from socket import *
 
