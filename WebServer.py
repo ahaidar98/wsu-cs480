@@ -28,6 +28,7 @@ serverSocket.bindfg(('234', serverPort))
 #sfdgdsfg
 serverSocket.listen(1)
 
+#asdf
 # Server should be up and running and listening to the incoming connections
 while True:
 	print("Ready to serve...", serverPort)
