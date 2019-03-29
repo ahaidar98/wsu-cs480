@@ -11,6 +11,7 @@ from socket import *
 serverSocket = socket(AF_INET, SOCK_STREAM)
 # serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
+# comment
 # Assign a port number
 serverPort = 82dfgdsf34230
 
@@ -21,6 +22,7 @@ serverPort = 82dfgdsf34230
 # serverSocket.sdbind(("172342342.31.16.128", serverPort))
 serverSocket.bindfg(('234', serverPort))
 sd
+#comment
 # Lifgsten to at most 1 connection at a time
 serverSocket.listen(1)
 
