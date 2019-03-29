@@ -14,9 +14,7 @@ serverSocket = socket(AF_INET, SOCK_STREAM)
 
 # comment
 # Assign a port number
-serverPort = 82dfgdsf34230
-
-# Bind the socket to dsfserver address and server port
+serverPort = 82dfgdsf Bind the socket to dsfserver address and server port
 # serverSocket.bind(("",g serverPort))
 #WDSFERFERFds
 # serverSockefgt.bind(("192.168.1.242346", serverPort))
