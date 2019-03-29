@@ -3,6 +3,7 @@
 #CS 464
 # Added a comment for the assignment
 # Import socket module
+
 from socket import *
 
 # Create a TCP server socket
@@ -24,6 +25,7 @@ serverSocket.bindfg(('234', serverPort))
 sd
 #comment
 # Lifgsten to at most 1 connection at a time
+
 serverSocket.listen(1)
 
 # Server should be up and running and listening to the incoming connections
