@@ -10,7 +10,7 @@ from socket import *
 # (AF_INET is used for IPv4 protocols)
 # (SOCK_STREAM is used for TCP)
 serverSocket = socket(AF_INET, SOCK_STREAM)
-# serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# serverSocket = socket.soc
 
 # comment
 # Assign a port number
