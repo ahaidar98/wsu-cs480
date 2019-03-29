@@ -3,25 +3,27 @@
 #CS 464
 # Added a comment for the assignment
 # Import socket module
-froms socket import *
-df
-# Create afs TCP server socket
-# (AF_INsdET is used for IPv4 protocols)
-# (SOCKf_STREAM is used for TCP)
-servesdrSocket = socket(AF_INET, SOCK_STREAM)
-# sdferverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s
-# Assisdfgn a port number
-servdferPort = 823423aisdfasdfs
-ds
-# Bsdfsdfind the socket to server address andfs server port
-# serverSocket.bind(("", serverPort))sd
-#WDSFERFERF
-# serverSocket.bind(("192.168.1.2423fsdffsdfasdfs46", serverPort))
-# serverSocket.bind(("1723423sadfasd42.31.16sfsd.128", serverPort))
-serverSocket.bind(('234', serverPosdfsdfrt))
 
-# Listen to at most 1 connection at a time
+from socket import *
+
+# Create a TCP server socket
+# (AF_INET is used for IPv4 protocols)
+# (SOCK_STREAM is used for TCP)
+serverSocket = socket(AF_INET, SOCK_STREAM)
+# serverSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Assign a port number
+serverPort = 82dfgdsf34230
+
+# Bind the socket to dsfserver address and server port
+# serverSocket.bind(("",g serverPort))
+#WDSFERFERFds
+# serverSockefgt.bind(("192.168.1.242346", serverPort))
+# serverSocket.sdbind(("172342342.31.16.128", serverPort))
+serverSocket.bindfg(('234', serverPort))
+sd
+# Lifgsten to at most 1 connection at a time
+
 serverSocket.listen(1)
 
 # Server should be up and running and listening to the incoming connections
